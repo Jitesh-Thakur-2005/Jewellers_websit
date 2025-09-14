@@ -18,7 +18,7 @@ function Nav() {
                 }}><a href="#services">Services</a></button>
                 <button className="nav-button" onClick={() => { nev('/Custom_Jewelry') }}>Gallery</button>
                 <button className="nav-button" onClick={() => { nev('/') }}><a href="#about">About us</a></button>
-            </div>    <button className="brownbutton" onClick={() => { nev('/') }}><a style={{ color: 'white' }} href="/Contact_us">Contact</a></button>
+            </div>    <button className="brownbutton" onClick={() => { nev("/Contact-Jewellers") }}>Contact</button>
        { isop &&    <div className="flotingnev">
                 <button className="nav-button" onClick={() => { nev('/') ;setop(!isop)}}>Home</button>
                 <button className="nav-button" onClick={() => {

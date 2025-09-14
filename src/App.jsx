@@ -6,7 +6,7 @@ import Nav from './com/landing/Nav'
 import Hero from './com/landing/Hero'
 import Footer from './com/landing/footer/footre'
 import Page2 from './com/page2/Page2';
-import Cont_us from './com/page2/contectus'
+import Cont_us from './com/page2/Contectus'
 
 function App() {
   const [count, setCount] = useState(0)
