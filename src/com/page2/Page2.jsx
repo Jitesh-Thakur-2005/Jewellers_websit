@@ -2,7 +2,7 @@ import "./pag2.css";
 import { GoArrowRight } from "react-icons/go";
 
 // Import images as modules
-import ''
+
 import customJewelryImg from "../../assets/hero/7a66555aec02a32240a69056c64279ad3fa5b1d3.jpg";
 import hardWorkImg from "../../assets/hero/50dd03e914c688ff6d032b1e7ee63ef9a36938a9.png";
 import manufacturingImg from "../../assets/hero/4970bc039883716b687a6e9ce88768cb65009c6c.png";
