@@ -5,7 +5,7 @@ import App from './App.jsx'
 import { Route,Routes,BrowserRouter } from 'react-router-dom'
 import Nav from './com/landing/Nav.jsx'
 import Hero from './com/landing/Hero.jsx'
-import Cont_us from './com/page2/Contectus.jsx'
+import Cont_us from './com/page2/contectus.jsx'
 import Page2 from './com/page2/Page2.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
