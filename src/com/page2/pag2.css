@@ -71,6 +71,11 @@ border-radius: 2rem;
 max-height: 80%;
 }
 @media  (max-width:800px){
+    .cont-main{
+        flex-direction: column;
+        height: 100%;
+    
+    }
     .p2-l{
         width: 100%;
         max-width: 500px;
@@ -78,5 +83,8 @@ max-height: 80%;
     .p2-r {
                width: 100%;
                 max-width: 500px;
+    }
+    .cont-info{
+        gap: 0px;
     }
 }

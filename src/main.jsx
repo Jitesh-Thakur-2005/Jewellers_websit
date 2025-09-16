@@ -13,7 +13,7 @@ createRoot(document.getElementById('root')).render(
     <Nav/>
       <Routes>
         
-        <Route path='/' element={<Hero/>}></Route>
+        <Route path='/Jewellers_websit' element={<Hero/>}></Route>
         <Route path='/Custom_Jewelry' element={<Page2/>}></Route>
         <Route path='/Contact-Jewellers' element={<Cont_us/>}></Route>
       </Routes>
