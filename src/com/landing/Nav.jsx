@@ -13,13 +13,13 @@ function Nav() {
             <div className="nav-buttons">
                 <button className="nav-button" onClick={() => { nev('/Jewellers_websit') }}>Home</button>
                 <button className="nav-button" onClick={() => {
-                    nev('/')
+                    nev('/Jewellers_websit')
                     //  window.location.href="#ser"
                 }}><a href="#services">Services</a></button>
-                <button className="nav-button" onClick={() => { nev('/Custom_Jewelry') }}>Gallery</button>
+                <button className="nav-button" onClick={() => { nev('/Jewellers_websit/Custom_Jewelry') }}>Gallery</button>
                 <button className="nav-button" onClick={() => { nev('/Jewellers_websit') }}><a href="#about">About us</a></button>
             </div>
-            <button className="brownbutton" onClick={() => { nev('/Contact-Jewellers') }}>Contact</button>
+            <button className="brownbutton" onClick={() => { nev('/Jewellers_websit/Contact-Jewellers') }}>Contact</button>
             {isop && <div className="flotingnev">
                 <button className="nav-button" onClick={() => { nev('/Jewellers_websit'); setop(!isop) }}>Home</button>
                 <button className="nav-button" onClick={() => {
@@ -27,7 +27,7 @@ function Nav() {
                     setop(!isop)
                     //  window.location.href="#ser"
                 }}><a href="#services">Services</a></button>
-                <button className="nav-button" onClick={() => { nev('/Custom_Jewelry'); setop(!isop) }}>Gallery</button>
+                <button className="nav-button" onClick={() => { nev('/Jewellers_websit/Custom_Jewelry'); setop(!isop) }}>Gallery</button>
                 <button className="nav-button" onClick={() => { nev('/Jewellers_websit'); setop(!isop) }}><a href="#about">About us</a></button>
             </div>}
         </div>

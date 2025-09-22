@@ -14,8 +14,8 @@ createRoot(document.getElementById('root')).render(
       <Routes>
         
         <Route path='/Jewellers_websit' element={<Hero/>}></Route>
-        <Route path='/Custom_Jewelry' element={<Page2/>}></Route>
-        <Route path='/Contact-Jewellers' element={<Cont_us/>}></Route>
+        <Route path='/Jewellers_websit/Custom_Jewelry' element={<Page2/>}></Route>
+        <Route path='/Jewellers_websit/Contact-Jewellers' element={<Cont_us/>}></Route>
       </Routes>
     </BrowserRouter>
     {/* <App /> */}
